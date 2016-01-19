@@ -1,0 +1,50 @@
+[{
+    "id": 1,
+    "title": "demo1.mp3",
+    "url": "http://localhost:3000/assets/desktop/resources/audios/demo1.mp3",
+    "artist": null,
+    "poster": null,
+    "mediumType": 1
+}, {
+    "id": 2,
+    "title": "demo2.mp3",
+    "url": "http://localhost:3000/assets/desktop/resources/audios/demo2.mp3",
+    "artist": null,
+    "poster": null,
+    "mediumType": 1
+}, {
+    "id": 3,
+    "title": "demo3.mp3",
+    "url": "http://localhost:3000/assets/desktop/resources/audios/demo3.mp3",
+    "artist": null,
+    "poster": null,
+    "mediumType": 1
+}, {
+    "id": 4,
+    "title": "demo4.mp3",
+    "url": "http://localhost:3000/assets/desktop/resources/audios/demo4.mp3",
+    "artist": null,
+    "poster": null,
+    "mediumType": 1
+}, {
+    "id": 5,
+    "title": "demo1.m4v",
+    "url": "http://localhost:3000/assets/desktop/resources/videos/demo1.m4v",
+    "artist": null,
+    "poster": null,
+    "mediumType": 2
+}, {
+    "id": 6,
+    "title": "demo2.m4v",
+    "url": "http://localhost:3000/assets/desktop/resources/videos/demo2.m4v",
+    "artist": null,
+    "poster": null,
+    "mediumType": 2
+}, {
+    "id": 7,
+    "title": "demo3.m4v",
+    "url": "http://localhost:3000/assets/desktop/resources/videos/demo3.m4v",
+    "artist": null,
+    "poster": null,
+    "mediumType": 2
+}]

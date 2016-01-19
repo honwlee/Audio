@@ -1,0 +1,20 @@
+define({
+    "add": "足を付ける",
+    "urlHolder": "アドレス",
+    "open": "開く",
+    "upload": "アップロード",
+    "previous": "下一首",
+    "play": "放送",
+    "pause": "一時停止",
+    "next": "次の曲",
+    "stop": "停止",
+    "mute": "静粛",
+    "unmute": "キャンセルシズネ",
+    "maxVolume": "最大の声",
+    "shuffle": "順番に放送",
+    "shuffleOff": "不顺放送",
+    "repeat": "繰り返し放送",
+    "repeatOff": "繰り返し流さない",
+    "saveSuccessful": "添加する!",
+    "deleteSuccessful": "削除成功する!"
+});

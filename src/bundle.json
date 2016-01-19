@@ -1,0 +1,65 @@
+{
+    "vendor": "iwebterm.com",
+    "feature": "multimedia",
+    "name": "AudioPlayer",
+    "version": "1.0.0",
+    "description": "",
+    "activator": "Activator",
+    "dependencies": {
+        "services": [{
+            "alias": "media_srv",
+            "serviceType": "Server",
+            "symbolicName": "system:utilhub.com:media_srv"
+        }, {
+            "alias": "playlist_lib",
+            "serviceType": "Library",
+            "symbolicName": "multimedia:iwebterm.com:playlist_lib"
+        }, {
+            "alias": "jplayer_lib",
+            "serviceType": "Library",
+            "symbolicName": "multimedia:iwebterm.com:jplayer_lib"
+        }],
+
+        "extraCssFiles": [
+            "resources/stylesheets/app.css",
+            "lib/jplayer/dist/skin/blue.monday/css/jplayer.blue.monday.css"
+        ]
+    },
+
+    "exports": {
+        "modules": [
+            "App"
+        ],
+        "services": [{
+            "serviceType": "App",
+            "category": "multimedia",
+            "name": "audioPlayer",
+            "classModule": "App",
+            "initParams": {
+                "title": "AudioPlayer"
+            }
+        }, {
+            "serviceType": "Library",
+            "category": "multimedia",
+            "name": "playlist_lib",
+            "classModule": "lib/jplayer/dist/add-on/jplayer.playlist"
+        }, {
+            "serviceType": "Library",
+            "category": "multimedia",
+            "name": "jplayer_lib",
+            "classModule": "lib/jplayer/dist/jplayer/jquery.jplayer"
+        }]
+    },
+
+    "licenses": [{
+        "type": "Commercial",
+        "url": "http://www.hudaokeji.com/license101"
+    }, {
+        "type": "OEM",
+        "url": "http://www.hudaokeji.com/license201"
+    }],
+
+    "bugs": "http://bugs.utilhub.com/",
+    "keywords": ["ihudao", "community", "audio"],
+    "homepage": "http://www.utilhub.com"
+}

@@ -1,0 +1,57 @@
+<div class="${baseClass}">
+    <div data-dojo-attach-point="jAudioPlayerNode" class="jp-jplayer"></div>
+    <div class="jp-audio" role="application" aria-label="media player">
+        <div class="jp-playlist">
+            <input class="addUrlText" type="text" data-dojo-attach-point="audioUrlNode" placeholder="${nls.urlHolder}">
+            <a class="addBtn" data-dojo-attach-point="addAudioNode" title="${nls.add}">
+                <i class="${fontAwesome.add}"></i>
+            </a>
+            <!-- <a class="urlBtn uploadBtn" data-dojo-attach-point="uploadAudioNode" title="${nls.upload}">
+                <i class="${fontAwesome.upload}"></i>
+            </a> -->
+            <a class="urlBtn openBtn" data-dojo-attach-point="openAudioNode" title="${nls.open}">
+                <i class="${fontAwesome.openFolder}"></i>
+            </a>
+            <ul class="music"></ul>
+        </div>
+        <div class="jp-gui jp-gui ui-widget ui-widget-content ui-corner-all">
+            <ul>
+                <li class="jp-play ui-state-default ui-corner-all">
+                    <a href="javascript:;" class="jp-play ui-icon ui-icon-play" tabindex="1" title="${nls.play}">play</a>
+                </li>
+                <li class="jp-pause ui-state-default ui-corner-all" style="display: none;">
+                    <a href="javascript:;" class="jp-pause ui-icon ui-icon-pause" tabindex="1" title="${nls.pause}" style="display: none;">pause</a>
+                </li>
+                <li class="jp-stop ui-state-default ui-corner-all">
+                    <a href="javascript:;" class="jp-stop ui-icon ui-icon-stop" tabindex="1" title="${nls.stop}">stop</a>
+                </li>
+                <li class="jp-repeat ui-state-default ui-corner-all">
+                    <a href="javascript:;" class="jp-repeat ui-icon ui-icon-refresh" tabindex="1" title="${nls.repeat}">repeat</a>
+                </li>
+                <li class="jp-repeat-off ui-state-default ui-state-active ui-corner-all" style="display: none;">
+                    <a href="javascript:;" class="jp-repeat-off ui-icon ui-icon-refresh" tabindex="1" title="${nls.repeatOff}" style="display: none;">repeat off</a>
+                </li>
+                <li class="jp-mute ui-state-default ui-corner-all">
+                    <a href="javascript:;" class="jp-mute ui-icon ui-icon-volume-off" tabindex="1" title="${nls.mute}">mute</a>
+                </li>
+                <li class="jp-unmute ui-state-default ui-state-active ui-corner-all" style="display: none;">
+                    <a href="javascript:;" class="jp-unmute ui-icon ui-icon-volume-off" tabindex="1" title="${nls.unmute" style="display: none;">unmute</a>
+                </li>
+                <li class="jp-volume-max ui-state-default ui-corner-all">
+                    <a href="javascript:;" class="jp-volume-max ui-icon ui-icon-volume-on" tabindex="1" title="${nls.maxVolume}">max volume</a>
+                </li>
+            </ul>
+            <div class="jp-progress-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0.6%;"></div>
+                <a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0.6%;"></a>
+            </div>
+            <div class="jp-volume-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 48%;"></div>
+                <a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 48%;"></a>
+            </div>
+            <div class="jp-current-time"></div>
+            <div class="jp-duration"></div>
+            <div class="jp-clearboth"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+*.swp
+.DS_Store
+build/.sass-cache/
+build/node_modules
+test/node_modules
+src/lib/jPlayer
+src/lib/jquery
+dist
+
