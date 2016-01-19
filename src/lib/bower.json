@@ -11,5 +11,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jPlayer": "jplayer#~2.9.2"
+  }
 }
