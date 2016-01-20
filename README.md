@@ -1,4 +1,4 @@
-AudioPlayer
+[AudioPlayer](http://honwlee.github.io/Audio)
 ---
 this is an example of qnet's utilhub app.
 
