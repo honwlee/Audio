@@ -30,7 +30,7 @@ define([
         "-public-": {
             "-attributes-": {},
             "-methods-": {
-                init: function(args) {
+                prepare: function(args) {
                     this.overrided();
                     var self = this;
                     self.context.requestService("jplayer_lib").then(function() {
